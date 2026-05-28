@@ -22,10 +22,11 @@
 			"id": "8af538e7885747d8aef75acbaccd2a51",
 		},
 	],
-	// Worker Loader for plugin sandboxing
-	"worker_loaders": [
-		{
-			"binding": "LOADER",
-		},
-	],
+	// Worker Loader for plugin sandboxing — requires Workers Paid ($5/mo).
+	// Disabled to deploy on free plan; CMS core works, plugins are skipped.
+	// "worker_loaders": [
+	// 	{
+	// 		"binding": "LOADER",
+	// 	},
+	// ],
 }
