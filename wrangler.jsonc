@@ -16,6 +16,12 @@
 			"bucket_name": "emdash-demo-demo","preview_bucket_name": "emdash-demo-demo",
 		},
 	],
+	"kv_namespaces": [
+		{
+			"binding": "SESSION",
+			"id": "8af538e7885747d8aef75acbaccd2a51",
+		},
+	],
 	// Worker Loader for plugin sandboxing
 	"worker_loaders": [
 		{
